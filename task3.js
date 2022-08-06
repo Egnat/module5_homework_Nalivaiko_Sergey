@@ -1,5 +1,5 @@
-let stringArr = ['Hello World'];
-for (let i = 0; i < stringArr.length; i++) {
-stringArr[i] = stringArr[i].split('').reverse().join('');
+function reverseString(str) {
+reverseStringr = str.split('').reverse().join('')
+console.log(reverseStringr)
 }
-console.log(stringArr)
+reverseString('Hello')
