@@ -1,5 +1,5 @@
 let x = undefined;
-let result = x;
+let result;
 
 switch(result) {
 case 1: (x == number)
